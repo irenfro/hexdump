@@ -5,8 +5,8 @@
 #define LINE_WIDTH 16
 void memdump(char * p , int len) {
     char ans[LINE_WIDTH + 1];
-
-    for(int i = 0; i < len; i++) {
+    int i;
+    for(i = 0; i < len; i++) {
             if(i % LINE_WIDTH == 0) {
                     printf("0x%016lX: ", (unsigned long)p+i);
             }
