@@ -1,5 +1,4 @@
-&str=0x7ED903A8=Hello world
-
+&str=0x7ED903A8=Hello world\n
 &a=0x7ED903A4=5
 &b=0x7ED903A0=-5
 &x=0x7ed90388
